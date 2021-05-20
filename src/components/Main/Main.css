@@ -1,0 +1,19 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1080px;
+  margin: 8em auto;
+}
+
+.main-container .entity-container {
+  margin: 1.5em 4em;
+}
+
+.main-container .entity-container i {
+  color: #ff8080;
+}
+
+.main-container .entity-container h2 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
