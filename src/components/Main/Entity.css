@@ -1,0 +1,28 @@
+.entity-container {
+  padding: 1.5em 4em;
+  margin: 0 1.5em;
+  background-color: #ff6633;
+  box-shadow: 5px 5px 5px 0px rgba(153, 153, 153, 0.75);
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  cursor: pointer;
+  transition: padding 0.5s 0s ease-in, box-shadow 0.5s 0s ease;
+}
+
+.entity-container:hover {
+  padding: 1.5em 5em;
+  box-shadow: 8px 8px 5px 0px rgba(153, 153, 153, 0.75);
+}
+
+.entity-container i {
+  color: #fff;
+}
+
+.entity-container h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
