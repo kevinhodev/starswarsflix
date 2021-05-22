@@ -1,5 +1,5 @@
-import React from "react";
-import "./Entity.css";
+import React from 'react';
+import './Entity.css';
 
 function Entity(props) {
   return (

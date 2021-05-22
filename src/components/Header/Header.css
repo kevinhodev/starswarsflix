@@ -7,8 +7,12 @@
 }
 
 h1 {
-  font-family: "KoHo", sans-serif;
+  font-family: 'KoHo', sans-serif;
   color: white;
+}
+
+span {
+  color: #ff4d4d;
 }
 
 .header-icon {
@@ -18,8 +22,7 @@ h1 {
 
 /* Animations */
 .tracking-in-expand {
-  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 

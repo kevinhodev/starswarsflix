@@ -1,0 +1,34 @@
+table {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table p {
+  margin: 0.5em;
+}
+
+thead {
+  background-color: rgb(82, 143, 143);
+  color: #fff;
+}
+
+th {
+  border: 1px solid #806464;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ada7a7;
+}
+
+.content {
+  margin: 6em 4em;
+}
+
+.content h2 {
+  margin-bottom: 2em;
+  font-family: 'KoHo', sans-serif;
+}

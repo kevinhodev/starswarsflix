@@ -1,6 +1,12 @@
 .main-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: wrap;
   max-width: 1080px;
   margin: 8em auto;
+}
+
+.main-container a {
+  margin-top: 1.5em;
 }

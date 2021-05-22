@@ -1,12 +1,14 @@
-import React from "react";
-import "./Header.css";
+import React from 'react';
+import './Header.css';
 
 function Header() {
   return (
     <div className="header">
-      <h1 className="tracking-in-expand"> FlexPix </h1>
+      <h1 className="tracking-in-expand">
+        Star<span>Wars</span>Flix
+      </h1>
       <div className="icon-container">
-        <i class="fab fa-medapps fa-2x header-icon"></i>
+        <i className="fab fa-medapps fa-2x header-icon"></i>
       </div>
     </div>
   );
