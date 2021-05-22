@@ -7,20 +7,18 @@ import PeoplesPage from './pages/PeoplesPage';
 import MoviesPage from './pages/MoviesPage';
 import VehiclesPage from './pages/VehiclesPage';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <Header></Header>
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/peoples" component={PeoplesPage} />
-          <Route path="/movies" component={MoviesPage} />
-          <Route path="/vehicles" component={VehiclesPage} />
-        </Switch>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Header></Header>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/peoples" component={PeoplesPage} />
+        <Route path="/movies" component={MoviesPage} />
+        <Route path="/vehicles" component={VehiclesPage} />
+      </Switch>
+    </div>
+  );
 }
 
 export default App;
